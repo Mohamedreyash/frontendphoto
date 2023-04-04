@@ -1,0 +1,52 @@
+form{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 150px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 25px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 400px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(186, 180, 180);
+    font-size: 15px;
+    background-color: gray;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.cancel{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(186, 180, 180);
+    padding: 5px;
+    width: 5%;
+    border-radius: 5px;
+    margin-left: 300px;
+    text-align: center;
+    background-color: gray;
+}
+.cancel:hover{
+ background-color: aquamarine;
+}
+.Container input{
+    margin-top: 20px;
+    border-radius:10px ;
+    border: 1px solid;
+}
+

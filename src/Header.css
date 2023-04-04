@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.header i{
+    margin-top: 22px;
+}
+.header h4{
+    margin-left: 10px;
+}
+.icon {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.link{
+    text-decoration: none;
+    border: 1px solid rgb(82, 184, 82);
+    color: white;
+    background-color: rgb(82, 184, 82);
+    padding: 10px;
+    border-radius: 10px;
+}
+.link:hover{
+    background-color:rgb(129, 194, 129); ;
+}
